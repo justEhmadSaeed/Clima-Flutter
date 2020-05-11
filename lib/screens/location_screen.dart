@@ -26,6 +26,13 @@ class _LocationScreenState extends State<LocationScreen> {
 
   void updateUI(dynamic weatherData) {
     setState(() {
+      if (weatherData == null) {
+        temperature = 0;
+        weatherIcon = 'Error';
+        weatherMessage = 'Unable to get weather data';
+        cityName = '';
+        return;
+      }
       var temp = weatherData['main']['temp'];
       temperature = temp.toInt();
       weatherMessage = weather.getMessage(temperature);
