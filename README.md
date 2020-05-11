@@ -1,8 +1,13 @@
-# Clima ☁
-
+# 
+<div align="center">
+	<h1>CLIMA⛅<br>
+	<img alt="version: 1.0.0" src="https://img.shields.io/badge/version-v1.0.0-blue">
+	<img alt="license: MIT" src="https://img.shields.io/badge/license-MIT-red">
+	</h1>
+</div>
 A weather app inspired by the beautiful designs made by [Olia Gozha](https://dribbble.com/shots/4663154-). You can find out the live weather data in the current location of the device as well as the weather for any city you can think of!
 
-## Installation
+## 🐱‍🚀 Installation
 
 If you want to try this app in your android device and you are new to flutter, then all you need to do is:
 
