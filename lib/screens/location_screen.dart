@@ -32,7 +32,6 @@ class _LocationScreenState extends State<LocationScreen> {
 
       var condition = weatherData['weather'][0]['id'];
       weatherIcon = weather.getWeatherIcon(condition);
-      print(condition);
       cityName = weatherData['name'];
     });
   }
