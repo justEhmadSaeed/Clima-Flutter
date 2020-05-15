@@ -25,3 +25,7 @@ flutter build apk --split-per-abi
 ```
 - You will have multiple APKs in the build directory.
 - Install the desired apk in your device (most of the time, android devices are compatible with arm64 one).
+
+## ⚡ Preview 
+
+![clima](https://user-images.githubusercontent.com/46846821/82083583-69909300-9703-11ea-91ec-38179591e3fa.gif)
