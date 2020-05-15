@@ -40,7 +40,6 @@ class _CityScreenState extends State<CityScreen> {
                   style: TextStyle(color: Colors.black),
                   decoration: kTextFieldInputDecoration,
                   onChanged: (value) {
-                    print(value);
                     cityName = value;
                   },
                 ),

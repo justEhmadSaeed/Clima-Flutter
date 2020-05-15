@@ -37,9 +37,15 @@ class _LoadingScreenState extends State<LoadingScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-          child: SpinKitSquareCircle(
-        color: Colors.white,
-        size: 100,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        children: <Widget>[
+          Text('Make sure your location is turned on ...'),
+          SpinKitSquareCircle(
+            color: Colors.white,
+            size: 100,
+          ),
+        ],
       )),
     );
   }
