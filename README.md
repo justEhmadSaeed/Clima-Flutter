@@ -7,6 +7,11 @@
 </div>
 A weather app inspired by the beautiful designs made by [Olia Gozha](https://dribbble.com/shots/4663154-). You can find out the live weather data in the current location of the device as well as the weather for any city you can think of!
 
+## 🎇 Features
+- Temperature of current location
+- Gives you suggestions according to current weather
+- Search to find out the weather of other cities
+
 ## 🐱‍🚀 Installation
 
 If you want to try this app in your android device and you are new to flutter, then all you need to do is:
